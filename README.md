@@ -1,4 +1,6 @@
-
+---
+icon: hand-wave
+---
 
 # Welcome to the Agent Project
 
@@ -6,26 +8,25 @@ A practical guide written by practitioners to help get your Agents running, scal
 
 Given the many confusing options, [<mark style="background-color:yellow;">https://www.AgentProject.ai</mark>](https://www.agentproject.ai) aims to guide you through the choices, tools, and best practices to ensure your Agent project starts and runs in production.
 
+The github repo is here : [https://github.com/AgentProject-AI/agentproject](https://github.com/AgentProject-AI/agentproject)
+
 ### Topics covered here
 
-(Please note that these are work-in-progress topics and will be filled out as we get experienced folks helping us out)&#x20;
+(Please note that these are work-in-progress topics and will be filled out as we get experienced folks helping us out)
 
 ### Part 1: Foundations of Agent Projects
 
-*   **Introduction to Agent AI:**
-
-    * Defining AI agents and their capabilities.
-    * Different types of AI agents and workflows
-      * What type of AI agents are right for you
-    * The transformative potential of AI agents in various industries.
-    * Understanding the core challenges in building and deploying AI agents.
-
-
+* **Introduction to Agent AI:**
+  * Defining AI agents and their capabilities.
+  * Different types of AI agents and workflows
+    * What type of AI agents are right for you
+  * The transformative potential of AI agents in various industries.
+  * Understanding the core challenges in building and deploying AI agents.
 * **Core Challenges in Agent Projects:**
-  * **Reliability**:  Managing unpredictable outputs from AI agents and their implications on system design.
-  * **Orchestrating**: Multiple agent orchestration to achieve complex goals&#x20;
-  * **Discovery:**  How to publish your Agent and make it findable
-  * **Trust:**  How to trust an Agent across your organization and from the outside
+  * **Reliability**: Managing unpredictable outputs from AI agents and their implications on system design.
+  * **Orchestrating**: Multiple agent orchestration to achieve complex goals
+  * **Discovery:** How to publish your Agent and make it findable
+  * **Trust:** How to trust an Agent across your organization and from the outside
   * **Real-Time and near real-time Processing Demands**: Designing agents for low-latency execution and high throughput applications
   * **Data Handling at Scale:** Efficient processing of large datasets and external knowledge sources
   * **Testing Complexity**: Adapting testing methodologies for non-deterministic Agentic systems.
@@ -35,12 +36,10 @@ Given the many confusing options, [<mark style="background-color:yellow;">https:
 
 * **Choosing the Right Agentic Framework:**
   * [<mark style="background-color:yellow;">A Scorecard for Agent Frameworks</mark>](topics/which-ai-agent-framework-to-choose/agent-framework-scorecard-explained.md) :thumbsup:
-  * **Comparative analysis of AutoGen,  CrewAI, LangGraph**:.
-    * Agent Framework Analysis of Autogen &#x20;
+  * **Comparative analysis of AutoGen, CrewAI, LangGraph**:.
+    * Agent Framework Analysis of Autogen
 
 {% embed url="https://www.youtube.com/watch?v=pN3GIeDsYIY" %}
-
-
 
 * Selecting the appropriate framework based on project requirements.
 * **Designing the Agent Architecture:**
@@ -64,8 +63,6 @@ Given the many confusing options, [<mark style="background-color:yellow;">https:
   * Vector stores and chunking methods.
   * Implementing Reasoning RAG to rectify information.
 
-
-
 ### Part 3: Your Agent Project in Production
 
 * **Deployment Strategies:**
@@ -81,7 +78,7 @@ Given the many confusing options, [<mark style="background-color:yellow;">https:
 * **Evaluation and Testing**:
   * **Building robust evaluation frameworks**.
   * Goal-based testing for agent projects.
-  * AUTs: Profile-based Agent-unit-testing&#x20;
+  * AUTs: Profile-based Agent-unit-testing
   * Using automated testing and metrics.
   * Incorporating human feedback in the evaluation loop.
   * Ad-hoc and offline evaluation methods.
@@ -113,4 +110,3 @@ Given the many confusing options, [<mark style="background-color:yellow;">https:
   * Emerging trends and technologies in agent AI.
   * The potential impact of AI agents on society and the economy.
   * Ethical considerations and responsible development of AI agents.
-
