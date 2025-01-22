@@ -67,6 +67,15 @@ The github repo is here : [https://github.com/AgentProject-AI/agentproject](http
   * Containerization and orchestration.
   * API endpoints for accessing agent services.
   * Implementing caching strategies to optimize performance.
+* **Security Strategies:**
+  * Resource Access Delegation
+  * Controlled access to computing resources
+  * Token-based delegation for API and service access
+  * Memory and storage allocation permissions
+  * Network access controls and limitations
+  * Controlled sub-task delegation between agents
+  * Permission inheritance rules
+  * Chain of authority tracking
 * **Monitoring and Logging:**
   * Importance of monitoring and audit logs in AI systems.
   * Setting up logging and metrics for performance tracking.
