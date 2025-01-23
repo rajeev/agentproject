@@ -35,7 +35,7 @@ The github repo is here : [https://github.com/AgentProject-AI/agentproject](http
 ### Part 2: Building Your Agent Project
 
 * **Choosing the Right Agentic Framework:**
-  * [<mark style="background-color:yellow;">A Scorecard for Agent Frameworks</mark>](topics/which-ai-agent-framework-to-choose/agent-framework-scorecard-explained.md) :thumbsup:
+  * [<mark style="background-color:yellow;">A Scorecard for Agent Frameworks</mark>](topics/agent-framework-scorecard-explained.md) :thumbsup:
   * **Comparative analysis of AutoGen, CrewAI, LangGraph**:.
     * [Agent Framework Analysis of Microsoft Autogen](topics/which-ai-agent-framework-to-choose/evaluating-microsoft-autogen.md)
 * Selecting the appropriate framework based on project requirements.
