@@ -11,3 +11,5 @@
 ***
 
 * [Exhaustive list of Agent Frameworks](exhaustive-list-of-agent-frameworks.md)
+* [Foundation of Agent Projects](foundation-of-agent-projects/README.md)
+  * [Different types of Agents and Workflows](foundation-of-agent-projects/different-types-of-agents-and-workflows.md)
