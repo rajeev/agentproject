@@ -18,7 +18,7 @@ The github repo is here : [https://github.com/AgentProject-AI/agentproject](http
 
 * **Introduction to Agent AI:**
   * Defining AI agents and their capabilities.
-  * Different types of AI agents and workflows
+  * [Different types of AI agents and workflows](foundation-of-agent-projects/different-types-of-agents-and-workflows.md)
     * What type of AI agents are right for you
   * The transformative potential of AI agents in various industries.
   * Understanding the core challenges in building and deploying AI agents.
