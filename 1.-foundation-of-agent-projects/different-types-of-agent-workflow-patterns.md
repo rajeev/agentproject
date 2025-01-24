@@ -26,7 +26,7 @@ This memory allows the agent to keep track of past interaction
 
 
 
-### **Prompt Chaining with an LLM Block**
+### **Prompt Chaining pattern with an LLM Block (AI Agent)**
 
 <figure><img src="../.gitbook/assets/PromptChaining.png" alt="" width="563"><figcaption><p>Prompt Chaining</p></figcaption></figure>
 
@@ -94,7 +94,7 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 
 
-
+### Router pattern for AI agents
 
 
 
