@@ -131,7 +131,9 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 ## Router pattern for AI agents
 
-<figure><img src="../.gitbook/assets/Router Pattern for AI agents.png" alt="" width="563"><figcaption><p>Router Pattern for Agent Workflow</p></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/Router Pattern for AI agents.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -144,6 +146,12 @@ If the router needs more help with classification, the router can forward that t
 The Routing pattern works well for complex tasks where distinct categories are better handled with different AI Agents, and where classification can be handled accurately.
 
 
+
+## Orchestrator pattern for AI agents
+
+
+
+<figure><img src="../.gitbook/assets/Orchestrator-Pattern.png" alt="" width="563"><figcaption><p>Orchestration pattern for AI Agents</p></figcaption></figure>
 
 
 
