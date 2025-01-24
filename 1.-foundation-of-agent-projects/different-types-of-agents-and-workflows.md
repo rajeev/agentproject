@@ -28,11 +28,11 @@ This memory allows the agent to keep track of past interaction
 
 ### **Prompt Chaining with an LLM Block**
 
-<figure><img src="../.gitbook/assets/PromptChaining.png" alt=""><figcaption><p>Prompt Chaining</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/PromptChaining.png" alt="" width="563"><figcaption><p>Prompt Chaining</p></figcaption></figure>
 
 
 
-This is great for building a more accurate Agentic system.  Prompt chaining decomposes complex requests into smaller, more manageable subtasks by:
+Prompt chaining helps create a more accurate agentic system.  Prompt chaining decomposes complex requests into smaller, more manageable subtasks by:
 
 * Reducing the cognitive load on the LLM.  Yes, Cognitive load is not just for humans!
 * Improving accuracy through focused prompts
@@ -46,7 +46,7 @@ This is great for building a more accurate Agentic system.  Prompt chaining deco
 ```
 // Here is pseudocode so that you understand Prompt Chaining
 // In the diagram above, I have made one call to the LLM 
-// but it's decomposed that into three calls 
+//But it's decomposed into three calls 
 
 # Initial Broad Prompt
 initial_prompt = """
@@ -58,7 +58,7 @@ Focus on innovative products that solve real-world problems.
 trends = llm.generate(initial_prompt)
 # Possible Output: "Smart home devices, AI-powered health tech, sustainable electronics"
 
-# Example Call 1 for checking: Check if output has at least one AI reference
+# Example Call 1 for checking: Check if the output has at least one AI reference
 CheckOutput(trends)
 
 # Example LLM Call 2: Detailed Market Analysis
@@ -72,7 +72,7 @@ For each trend, provide:
 """
 
 market_details = llm.generate(market_analysis_prompt)
-# Example Call 2 for checking: Check if output has at least two tasks
+# Example Call 2 for checking: Check if the output has at least two tasks
 CheckOutput(market_details)
 
 
