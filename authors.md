@@ -1,6 +1,6 @@
-# Author
+# Authors
 
-This is a community of practicioners
+This is written by a community of practitioners
 
 [Anup Surendran](https://www.linkedin.com/in/anupsurendran/)  (Consultant for Gen AI and Agentic implementations)
 
