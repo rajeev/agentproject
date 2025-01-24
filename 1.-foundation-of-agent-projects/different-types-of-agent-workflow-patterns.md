@@ -131,7 +131,17 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 ## Router pattern for AI agents
 
+<figure><img src="../.gitbook/assets/Router Pattern for AI agents.png" alt="" width="563"><figcaption><p>Router Pattern for Agent Workflow</p></figcaption></figure>
 
+
+
+A router pattern dynamically selects the most appropriate next action or processing pathway based on input analysis.  An efficient way of doing this is to use an ML Classification router upfront because you could design a user experience where the question is pretty targeted like:&#x20;
+
+_"What can I help you with? e.g.  Lost Card, Points, Technical Support, Other"._  &#x20;
+
+If the router needs more help with classification, the router can forward that to an LLM router which helps with classification and does ongoing routing.
+
+The Routing pattern works well for complex tasks where distinct categories are better handled with different AI Agents, and where classification can be handled accurately.
 
 
 
