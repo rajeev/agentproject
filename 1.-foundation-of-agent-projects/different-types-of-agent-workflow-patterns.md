@@ -4,7 +4,7 @@ description: Different flavors of Agents and workflows
 
 # Different types of Agent Workflow Patterns
 
-### **The Building Block for an Agentic System**
+## **The Building Block for an Agentic System**
 
 <figure><img src="../.gitbook/assets/Building Block for AI Agents.png" alt="" width="563"><figcaption><p>The basic building block for an AI agent.</p></figcaption></figure>
 
@@ -18,7 +18,7 @@ For most workflows, a single standalone agent will do the trick.
 
 
 
-#### Working Memory&#x20;
+### Working Memory&#x20;
 
 The working memory for an agent involves the ability to retrieve previous conversations or details shared by the user, as well as previous generations.&#x20;
 
@@ -26,7 +26,42 @@ This memory allows the agent to keep track of past interaction
 
 
 
-### **Prompt Chaining pattern with an LLM Block (AI Agent)**
+### Relevant Retrieval&#x20;
+
+This is fundamentally built on _**Semantic Search**_
+
+* Uses embedding models to find contextually similar information
+* This goes beyond keyword matching
+* Captures meaning and intent
+
+**Retrieval Strategies**
+
+1.  **Vector Database Approach**
+
+    ```python
+    def retrieve_relevant_context(query, vector_db):
+        # Convert query to embedding
+        query_embedding = embed_model.encode(query)
+        
+        # Find top-k most similar documents
+        relevant_docs = vector_db.search(
+            query_embedding, 
+            top_k=5,
+            similarity_threshold=0.7
+        )
+        return relevant_docs
+    ```
+2. **Hybrid Retrieval**
+   * Combines semantic search with:
+     * Keyword matching
+     * Metadata filtering
+     * Relevance scoring
+
+
+
+
+
+## **Prompt Chaining pattern with an LLM Block (AI Agent)**
 
 <figure><img src="../.gitbook/assets/PromptChaining.png" alt="" width="563"><figcaption><p>Prompt Chaining</p></figcaption></figure>
 
@@ -38,7 +73,7 @@ I am using the "LLM Block" interchangeably with "Agent" or "Standalone Agent" ba
 * Improving accuracy through focused prompts
 * Creating a step-by-step reasoning process
 
-#### Performance Tradeoffs
+### Performance Tradeoffs
 
 * **Pros:** Higher accuracy, more controllable.  As you see in the diagram above you can programmatically check the output.
 * **Cons:** Increased latency, more API calls
@@ -94,7 +129,7 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 
 
-### Router pattern for AI agents
+## Router pattern for AI agents
 
 
 
