@@ -14,17 +14,15 @@ The basic building block for an Agent is shown above.  Some folks might call thi
 
 For the sample workflow above, one of the steps (Step 2)  interacts with the Agent.
 
-For most workflows, a single standalone agent will do the trick.
+For most workflows, a single standalone agent will do the trick.   One of things which is not shown here is that there is either a system or human interaction in one of the workflow steps.  If the agent does not know what the next step or conclusion should be, a live human agent can be contacted to retrieve an answer to a specific question.. A pattern used now is to have one of the **tools** as a _Human-In-The-Loop_ tool at the disposal to an agent.
 
-
+Other **Tools** made available to the agent can include an API to research portals like Arxiv, HuggingFace, GALE, Bing search, Serp API, etc.&#x20;
 
 ### Working Memory&#x20;
 
 The working memory for an agent involves the ability to retrieve previous conversations or details shared by the user, as well as previous generations.&#x20;
 
 This memory allows the agent to keep track of past interaction
-
-
 
 ### Relevant Retrieval&#x20;
 
@@ -127,6 +125,38 @@ For each product opportunity, identify:
 competitive_analysis = llm.generate(competitive_prompt)
 ```
 
+## Reflection Pattern for AI Agents
+
+<figure><img src="../.gitbook/assets/Reflection pattern.png" alt="" width="563"><figcaption><p>Reflection pattern helps improve the quality of agent output by doing verifications and revisions</p></figcaption></figure>
+
+The reflection pattern is a meta-cognitive mechanism that enables AI agents to:
+
+* Analyze their own decision-making processes
+* Evaluate performance and outcomes
+* Dynamically adjust strategies and behaviors
+
+### **Architecture tradeoffs**
+
+Key Problems with the Reflection Pattern:
+
+1. Computational Overhead
+
+* High processing complexity
+* Significant memory consumption
+* Performance degradation in real-time systems
+
+2. Uncertainty Management Challenges
+
+* Difficulty quantifying meta-cognitive uncertainty
+* Risk of introducing systemic biases
+* Potential for over-optimization
+
+### **Example use case**
+
+In a medical care situation, this can be used in the diagnostic reasoning processes, identifying potential medical decision biases or improving treatment recommendation accuracy
+
+
+
 
 
 ## Router pattern for AI agents
@@ -164,6 +194,12 @@ A **Synthesizer** then combines the outputs of these Workers, resolving potentia
 The advantage is that this pattern can work on **highly variable tasks**.  The LLM Blocks can be variable.  The calls can also be made to new instances of the same LLM Block.
 
 By decoupling the overall goal into smaller, more manageable sub-goals, the agent can flexibly adapt to changing circumstances and unexpected challenges. For example, a robotic assistant might have Workers for navigation, object manipulation, and human-robot interaction. The Orchestrator can dynamically activate and deactivate these Executors based on the current situation and the user's needs.
+
+
+
+
+
+[https://arxiv.org/pdf/2303.11366](https://arxiv.org/pdf/2303.11366)
 
 
 
