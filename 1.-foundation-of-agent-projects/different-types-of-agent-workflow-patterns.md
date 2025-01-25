@@ -195,11 +195,9 @@ The advantage is that this pattern can work on **highly variable tasks**.  The L
 
 By decoupling the overall goal into smaller, more manageable sub-goals, the agent can flexibly adapt to changing circumstances and unexpected challenges. For example, a robotic assistant might have Workers for navigation, object manipulation, and human-robot interaction. The Orchestrator can dynamically activate and deactivate these Executors based on the current situation and the user's needs.
 
+A more complex pattern is based on the reflection pattern called the **Reflexion** pattern. Reflexion builds on Basic Reflection, incorporating principles of reinforcement learning. As described in the paper Reflexion: Language Agents with Verbal Reinforcement Learning ([https://arxiv.org/pdf/2303.11366](https://arxiv.org/pdf/2303.11366)), this approach goes beyond simple feedback. It evaluates the response using external data and forces the model to address any redundancies or omissions, making the reflective process more robust and the output more refined.
 
 
-
-
-[https://arxiv.org/pdf/2303.11366](https://arxiv.org/pdf/2303.11366)
 
 
 
