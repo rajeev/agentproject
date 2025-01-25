@@ -147,11 +147,23 @@ The Routing pattern works well for complex tasks where distinct categories are b
 
 
 
-## Orchestrator pattern for AI agents
+## Orchestrator Worker Synthesizer pattern for AI agents
 
 
 
 <figure><img src="../.gitbook/assets/Orchestrator-Pattern.png" alt="" width="563"><figcaption><p>Orchestration pattern for AI Agents</p></figcaption></figure>
+
+
+
+The Orchestrator-Worker-Synthesizer (OWS) pattern offers a pattern for building adaptable and robust AI agents.&#x20;
+
+In this pattern, a Decomposer breaks down the high-level goals into tasks and the **Orchestrator** coordinates the actions of various **Workers**. These Workers, each responsible for a specific task, work independently and concurrently.&#x20;
+
+A **Synthesizer** then combines the outputs of these Workers, resolving potential conflicts and producing a unified behavior for the agent.
+
+The advantage is that this pattern can work on **highly variable tasks**.  The LLM Blocks can be variable.  The calls can also be made to new instances of the same LLM Block.
+
+By decoupling the overall goal into smaller, more manageable sub-goals, the agent can flexibly adapt to changing circumstances and unexpected challenges. For example, a robotic assistant might have Workers for navigation, object manipulation, and human-robot interaction. The Orchestrator can dynamically activate and deactivate these Executors based on the current situation and the user's needs.
 
 
 
