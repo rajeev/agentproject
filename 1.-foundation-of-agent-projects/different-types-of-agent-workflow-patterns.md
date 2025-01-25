@@ -191,7 +191,7 @@ In this pattern, a Decomposer breaks down the high-level goals into tasks and th
 
 A **Synthesizer** then combines the outputs of these Workers, resolving potential conflicts and producing a unified behavior for the agent.
 
-The advantage is that this pattern can work on **highly variable tasks**.  The LLM Blocks can be variable.  The calls can also be made to new instances of the same LLM Block.
+The advantage is that this pattern can work on **highly variable tasks**.  The number of LLM Blocks can be variable.  The calls can also be made to new instances of the same LLM Block.
 
 By decoupling the overall goal into smaller, more manageable sub-goals, the agent can flexibly adapt to changing circumstances and unexpected challenges. For example, a robotic assistant might have Workers for navigation, object manipulation, and human-robot interaction. The Orchestrator can dynamically activate and deactivate these Executors based on the current situation and the user's needs.
 
