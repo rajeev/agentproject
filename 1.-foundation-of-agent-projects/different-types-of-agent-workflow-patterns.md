@@ -1,5 +1,5 @@
 ---
-description: Different flavors of Agents and workflows
+description: Different flavors of Agents workflows
 ---
 
 # Different types of Agent Workflow Patterns
