@@ -183,6 +183,24 @@ The Routing pattern works well for complex tasks where distinct categories are b
 
 
 
+## Composable pattern for AI agents
+
+<figure><img src="../.gitbook/assets/Composable pattern.png" alt="" width="563"><figcaption><p>A composable pattern has agent orchestration hidden</p></figcaption></figure>
+
+
+
+Knowing how developers code, agents can quickly become monolithic systems.  :smile:
+
+The composable agent pattern represents an approach to building AI systems that are:
+
+* Dynamically configurable
+* Modularly extensible - ie. If I need a specific agent who does a specific type of research I can add that to the Research Agent above.
+* Contextually adaptive
+
+The multi-agent conversation pattern is used within each box described above.  But from a user's perspective, the user interacts with the Agent conversation orchestrator
+
+
+
 ## Orchestrator Worker Synthesizer pattern for AI agents
 
 
