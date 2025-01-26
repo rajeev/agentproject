@@ -127,7 +127,9 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 ## Reflection Pattern for AI Agents
 
-<figure><img src="../.gitbook/assets/Reflection pattern.png" alt="" width="563"><figcaption><p>Reflection pattern helps improve the quality of agent output by doing verifications and revisions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Reflection pattern for AI agents.png" alt=""><figcaption></figcaption></figure>
+
+
 
 The reflection pattern is a meta-cognitive mechanism that enables AI agents to:
 
