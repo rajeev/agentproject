@@ -127,7 +127,7 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 ## Reflection Pattern for AI Agents
 
-<figure><img src="../.gitbook/assets/Reflection pattern for AI agents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Reflection pattern for AI agents.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -191,13 +191,9 @@ The Routing pattern works well for complex tasks where distinct categories are b
 
 Knowing how developers code, agents can quickly become monolithic systems.  :smile:
 
-The composable agent pattern represents an approach to building AI systems that are:
+At its core, **composable pattern** refers to the ability to create AI systems by connecting **smaller**, independent “**agents**.” Each of these agents can handle specific tasks, and they can be combined like **building blocks** to form more complex AI applications.  The pattern is extensible modularly - ie. If I need a specific agent who does a particular type of research I can add that to the Research Agent group above without disrupting the end-user experience.
 
-* Dynamically configurable
-* Modularly extensible - ie. If I need a specific agent who does a specific type of research I can add that to the Research Agent above.
-* Contextually adaptive
-
-The multi-agent conversation pattern is used within each box described above.  But from a user's perspective, the user interacts with the Agent conversation orchestrator
+The multi-agent conversation pattern is used within each box described above.  But from a user's perspective, the user interacts with the one agent who behaves as the conversation orchestrator.
 
 
 
@@ -222,6 +218,8 @@ By decoupling the overall goal into smaller, more manageable sub-goals, the agen
 ### **Example use case**
 
 &#x20;A robotic assistant might have Workers for navigation, object manipulation, and human-robot interaction. The Orchestrator can dynamically activate and deactivate these Executors based on the current situation and the user's needs.
+
+
 
 
 
