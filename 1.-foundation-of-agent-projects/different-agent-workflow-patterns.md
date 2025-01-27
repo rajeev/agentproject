@@ -2,7 +2,7 @@
 description: Different flavors of Agents workflows
 ---
 
-# Different types of Agent Workflow Patterns
+# Different Agent Workflow Patterns
 
 ## **The Building Block for an Agentic System**
 
@@ -63,7 +63,7 @@ This is fundamentally built on _**Semantic Search**_
 
 <figure><img src="../.gitbook/assets/PromptChaining.png" alt="" width="563"><figcaption><p>Prompt Chaining</p></figcaption></figure>
 
-I am using the "LLM Block" interchangeably with "Agent" or "Standalone Agent" based on the [diagram](different-types-of-agent-workflow-patterns.md#the-building-block-for-an-agentic-system) I drew earlier.
+I am using the "LLM Block" interchangeably with "Agent" or "Standalone Agent" based on the [diagram](different-agent-workflow-patterns.md#the-building-block-for-an-agentic-system) I drew earlier.
 
 **Prompt chaining** helps create a more accurate agentic system.  Prompt chaining decomposes complex requests into smaller, more manageable subtasks by:
 

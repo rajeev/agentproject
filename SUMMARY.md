@@ -13,5 +13,5 @@
 * [Exhaustive list of Agent Frameworks](exhaustive-list-of-agent-frameworks.md)
 * [1. Foundation of Agent Projects](1.-foundation-of-agent-projects/README.md)
   * [The key functional areas of an AI agent](1.-foundation-of-agent-projects/the-key-functional-areas-of-an-ai-agent.md)
-  * [Different types of Agent Workflow Patterns](1.-foundation-of-agent-projects/different-types-of-agent-workflow-patterns.md)
+  * [Different Agent Workflow Patterns](1.-foundation-of-agent-projects/different-agent-workflow-patterns.md)
 * [Authors](authors.md)
