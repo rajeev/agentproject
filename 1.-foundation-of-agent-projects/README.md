@@ -1,3 +1,3 @@
 # 1. Foundation of Agent Projects
 
-[Different Types of Agents and Workflows](different-agent-workflow-patterns.md)
+[Different Agent Workflow Patterns](different-agent-workflow-patterns.md)
