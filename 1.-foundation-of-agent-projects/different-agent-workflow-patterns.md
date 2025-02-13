@@ -2,7 +2,7 @@
 description: Different flavors of Agents workflows
 ---
 
-# Different Agent Workflow Patterns
+# Different Agent Workflow Implementation Patterns
 
 ## **The Building Block for an Agentic System**
 
@@ -133,7 +133,7 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 The reflection pattern is a meta-cognitive mechanism that enables AI agents to:
 
-* Analyze their own decision-making processes
+* Analyze their decision-making processes
 * Evaluate performance and outcomes
 * Dynamically adjust strategies and behaviors
 

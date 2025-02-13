@@ -13,5 +13,6 @@
 * [Exhaustive list of Agent Frameworks](exhaustive-list-of-agent-frameworks.md)
 * [1. Foundation of Agent Projects](1.-foundation-of-agent-projects/README.md)
   * [The key functional areas of an AI agent](1.-foundation-of-agent-projects/the-key-functional-areas-of-an-ai-agent.md)
-  * [Different Agent Workflow Patterns](1.-foundation-of-agent-projects/different-agent-workflow-patterns.md)
+  * [Different Agent Workflow Implementation Patterns](1.-foundation-of-agent-projects/different-agent-workflow-patterns.md)
+  * [How to use Outcome, Role and Interaction (ORI) to design AI Agents for your organization](1.-foundation-of-agent-projects/how-to-use-outcome-role-and-interaction-ori-to-design-ai-agents-for-your-organization.md)
 * [Authors](authors.md)
