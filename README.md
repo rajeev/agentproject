@@ -17,7 +17,7 @@ The github repo is here : [https://github.com/AgentProject-AI/agentproject](http
 ### Part 1: Foundations of Agent Projects
 
 * **Introduction to Agent AI:**
-  * Defining AI agents and their capabilities.
+  * [Key functional areas of an AI agent](1.-foundation-of-agent-projects/the-key-functional-areas-of-an-ai-agent.md)
   * [Different AI agent workflow patterns](1.-foundation-of-agent-projects/different-agent-workflow-patterns.md)
     * What type of AI agents are right for you
   * The transformative potential of AI agents in various industries.
