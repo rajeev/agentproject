@@ -18,8 +18,9 @@ The github repo is here : [https://github.com/AgentProject-AI/agentproject](http
 
 * **Introduction to Agent AI:**
   * [Key functional areas of an AI agent](1.-foundation-of-agent-projects/the-key-functional-areas-of-an-ai-agent.md)
-  * [Different AI agent workflow patterns](1.-foundation-of-agent-projects/different-agent-workflow-patterns.md)
+  * [Different AI agent workflow implementation patterns](1.-foundation-of-agent-projects/different-agent-workflow-patterns.md)
     * What type of AI agents are right for you
+  * [How to think about designing and blueprinting agents in your organization using ORI design](1.-foundation-of-agent-projects/how-to-use-outcome-role-and-interaction-ori-to-design-ai-agents-for-your-organization.md)
   * The transformative potential of AI agents in various industries.
   * Understanding the core challenges in building and deploying AI agents.
 * **Core Challenges in Agent Projects:**
