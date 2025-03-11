@@ -29,7 +29,7 @@ Task-based agents represent the foundation of practical AI implementation in mos
 * **Scalability**: Easier to replicate and deploy across different contexts
 * **Maintenance**: Simpler to debug and optimize
 
-<figure><img src="../.gitbook/assets/task based agents.png" alt="" width="563"><figcaption><p>Task based agents are going to be Organization favorites</p></figcaption></figure>
+<figure><img src="../images/task_based_agents.png" alt="" width="563"><figcaption><p>Task based agents are going to be Organization favorites</p></figcaption></figure>
 
 A prime example of task-based architecture is the **Monitoring Agent** pattern. These agents are designed to:
 
@@ -40,7 +40,7 @@ A prime example of task-based architecture is the **Monitoring Agent** pattern. 
 
 
 
-<figure><img src="../.gitbook/assets/monitoring agent.png" alt="" width="563"><figcaption><p>A type of task based agent : Monitoring Agent</p></figcaption></figure>
+<figure><img src="../images/monitoring_agent.png" alt="" width="563"><figcaption><p>A type of task based agent : Monitoring Agent</p></figcaption></figure>
 
 
 
@@ -53,7 +53,7 @@ Goal-seeking agents represent a more sophisticated approach to agent design, sui
 * Make decisions based on multiple variables
 * Collaborate dynamically with other agents
 
-<figure><img src="../.gitbook/assets/Goal seeking agent.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../images/goal_seeking_agent.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Key characteristics of goal-seeking agents include:
 
@@ -64,7 +64,7 @@ Key characteristics of goal-seeking agents include:
 
 Here is an  advanced type of goal-seeking agent which is useful for complex scenario use cases where the environment variables are unpredictable
 
-<figure><img src="../.gitbook/assets/Simulation Agent.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../images/simulation_agent.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Role-based design
 

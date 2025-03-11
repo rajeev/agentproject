@@ -6,7 +6,7 @@ description: Different flavors of Agents workflows
 
 ## **The Building Block for an Agentic System**
 
-<figure><img src="../.gitbook/assets/Building Block for AI Agents.png" alt="" width="563"><figcaption><p>The basic building block for an AI agent.</p></figcaption></figure>
+<figure><img src="../images/building_block_for_ai_agent.png" alt="" width="563"><figcaption><p>The basic building block for an AI agent.</p></figcaption></figure>
 
 
 
@@ -61,7 +61,7 @@ This is fundamentally built on _**Semantic Search**_
 
 ## **Prompt Chaining pattern with an LLM Block (AI Agent)**
 
-<figure><img src="../.gitbook/assets/PromptChaining.png" alt="" width="563"><figcaption><p>Prompt Chaining</p></figcaption></figure>
+<figure><img src="../images/prompt_chaining_pattern.png" alt="" width="563"><figcaption><p>Prompt Chaining</p></figcaption></figure>
 
 I am using the "LLM Block" interchangeably with "Agent" or "Standalone Agent" based on the [diagram](different-agent-workflow-patterns.md#the-building-block-for-an-agentic-system) I drew earlier.
 
@@ -127,7 +127,7 @@ competitive_analysis = llm.generate(competitive_prompt)
 
 ## Reflection Pattern for AI Agents
 
-<figure><img src="../.gitbook/assets/Reflection pattern for AI agents.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../images/reflection_pattern.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -169,7 +169,7 @@ A more complex pattern is based on the reflection pattern called the **Reflexion
 
 
 
-<figure><img src="../.gitbook/assets/Router Pattern for AI agents.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../images/router_pattern.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -185,7 +185,7 @@ The Routing pattern works well for complex tasks where distinct categories are b
 
 ## Composable pattern for AI agents
 
-<figure><img src="../.gitbook/assets/Composable pattern.png" alt="" width="563"><figcaption><p>A composable pattern has agent orchestration hidden</p></figcaption></figure>
+<figure><img src="../images/composable_pattern.png" alt="" width="563"><figcaption><p>A composable pattern has agent orchestration hidden</p></figcaption></figure>
 
 
 
@@ -201,7 +201,7 @@ The multi-agent conversation pattern is used within each box described above.  B
 
 
 
-<figure><img src="../.gitbook/assets/Orchestrator-Pattern.png" alt="" width="563"><figcaption><p>Orchestration pattern for AI Agents</p></figcaption></figure>
+<figure><img src="../images/orchestrator_worker_pattern.png" alt="" width="563"><figcaption><p>Orchestration pattern for AI Agents</p></figcaption></figure>
 
 
 

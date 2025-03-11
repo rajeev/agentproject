@@ -1,4 +1,3 @@
 # The key functional areas of an AI agent
 
-<figure><img src="../.gitbook/assets/Functional areas of an AI agent.png" alt=""><figcaption></figcaption></figure>
-
+![](../images/functional_areas_of_an_agent.png)
