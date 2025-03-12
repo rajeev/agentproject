@@ -1,16 +1,17 @@
 # Exhaustive list of Agent Frameworks
 
+
 <table data-view="cards">
     <thead>
-    <tr>
-        <th valign="top">Framework Name</th>
-        <th valign="top">Description</th>
-        <th data-type="content-ref">Website</th>
-        <th valign="top">Pricing Model</th>
-        <th data-hidden data-card-cover data-type="files"></th>
-    </tr>
+        <tr>
+            <th valign="top">Framework Name</th>
+            <th valign="top">Description</th>
+            <th data-type="content-ref">Website</th>
+            <th valign="top">Pricing Model</th>
+            <th data-hidden data-card-cover data-type="files"></th>
+        </tr>
     </thead>
-    <tbody>
+<tbody>
     <tr>
         <td valign="top">LangGraph</td>
         <td valign="top">A framework for building conversational AI agents.</td>
@@ -716,7 +717,6 @@
         <td valign="top">Free</td>
         <td></td>
     </tr>
-
     <tr>
         <td valign="top">Pyspur</td>
         <td valign="top">Drag & Drop AI Agent Builder with a focus on Developer
@@ -726,7 +726,6 @@
         <td valign="top">Free</td>
         <td></td>
     </tr>
-
     <tr>
         <td valign="top">Steamship</td>
         <td valign="top">Dev environment to build AI Agents in Production</td>
@@ -735,7 +734,6 @@
         <td valign="top">Free tier</td>
         <td></td>
     </tr>
-
     <tr>
         <td valign="top">QuantaLogic</td>
         <td valign="top">QuantaLogic is a ReAct (Reasoning & Action) framework for
@@ -746,6 +744,5 @@
         <td valign="top">Free</td>
         <td></td>
     </tr>
-
     </tbody>
 </table>
