@@ -322,6 +322,13 @@
 - **Website**: [MetaGPT](<https://github.com/geekan/MetaGPT>)
 - **Pricing Model**: Free
 
+### MindsDB
+
+- **Description**: Database with functionality to create AI Agents
+- **Website**: [MindsDB AI Agents](https://docs.mindsdb.com/use-cases/ai_agents/overview)
+- **Pricing Model**: Freemium
+
+
 ### Mini LLM Flow
 
 - **Description**: Minimalist LLM Framework in 100 Lines. Enable LLMs to Program
