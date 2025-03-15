@@ -1,11 +1,11 @@
 input: .
 output: .retype
-url: https://rajeev.github.io/agentproject/
+url: https://agentproject-ai.github.io/agentproject/
 branding:
   title: Agent Project
   label: Docs
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: Agent Frameworks
+  link: /agentproject/1-foundation-of-agent-projects/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

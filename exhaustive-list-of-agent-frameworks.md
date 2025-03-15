@@ -12,6 +12,14 @@
             JavaScript and TypeScript.
 - **Pricing Model**: Free
 
+### aiXplain
+
+- **Description**: Production-ready AI Agents with Trusted outcomes, adaptable
+            behavior, scalable deployment.
+- **Website**: [aiXplain](<https://aixplain.com/>)
+- **Pricing Model**: Freemium
+
+
 ### Agent Pilot
 
 - **Description**: Create, manage, and chat with AI workflows seamlessly.
@@ -205,6 +213,14 @@
             swarms to tackle complex tasks.
 - **Pricing Model**: Free
 
+
+### gptme
+
+- **Description**: Your agent in your terminal. Writes code, uses the terminal,
+            browses the web, vision.
+- **Pricing Model**: Free
+
+
 ### GaiaHub
 
 - **Description**: GaiaHub is a hub where developers create and share building
@@ -370,6 +386,13 @@
             conversational AI.
 - **Pricing Model**: Free
 
+
+### n8n
+
+- **Description**: Workflow automation platform combining AI with business
+            processes. Connect anything to everything.
+- **Pricing Model**: Freemium
+
 ### PraisonAI
 
 - **Description**: Multi AI Agents Framework to Automate Tasks.
@@ -465,29 +488,6 @@
 - **Description**: UI-focused multi-agent framework for Windows OS interactions.
 - **Pricing Model**: Free
 
-### Vectara-agentic
-
-- **Description**: Build AI assistants and Agents with Vectara.
-- **Pricing Model**: Freemium
-
-### aiXplain
-
-- **Description**: Production-ready AI Agents with Trusted outcomes, adaptable
-            behavior, scalable deployment.
-- **Website**: [aiXplain](<https://aixplain.com/>)
-- **Pricing Model**: Freemium
-
-### gptme
-
-- **Description**: Your agent in your terminal. Writes code, uses the terminal,
-            browses the web, vision.
-- **Pricing Model**: Free
-
-### n8n
-
-- **Description**: Workflow automation platform combining AI with business
-            processes. Connect anything to everything.
-- **Pricing Model**: Freemium
 
 ### uAgent
 
@@ -500,3 +500,12 @@
 - **Description**: Task-oriented AI agent framework for digital workers and
             vertical AI agents.
 - **Pricing Model**: Free
+
+
+
+### Vectara-agentic
+
+- **Description**: Build AI assistants and Agents with Vectara.
+- **Pricing Model**: Freemium
+
+
