@@ -48,6 +48,13 @@
 - **Description**: Powerfully simple AI agent framework.
 - **Pricing Model**: Free
 
+### Agent-S2
+
+- **Description**: An Open, Modular, and Scalable Framework for Computer Use Agents 
+- **Website**: [Article](https://www.simular.ai/articles/agent-s2)
+- **Github**: [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)
+- **Pricing Model**: Free
+
 ### Agno
 
 - **Description**: Lightweight, high-performance, modal agnostic agent
@@ -441,6 +448,7 @@
 - **Description**: Build powerful, modular LLM applications in Rust with unified
             interfaces and high performance.
 - **Pricing Model**: Free
+
 
 ### SmolAgents
 
